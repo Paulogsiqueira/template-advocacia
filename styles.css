@@ -29,7 +29,7 @@ h1, h2, h3 { font-family: 'Cormorant Garamond', serif; font-weight: 600; line-he
 
 .site-header { position: sticky; top: 0; z-index: 50; background: rgba(246,247,249,.94); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
 .nav { display: flex; align-items: center; justify-content: space-between; padding: 1.1rem 0; }
-.brand { font-family: 'Cormorant Garamond', serif; font-weight: 700; font-size: 1.5rem; letter-spacing: .01em; }
+.brand { display: inline-flex; align-items: center; gap: .55rem; font-family: 'Cormorant Garamond', serif; font-weight: 700; font-size: 1.5rem; letter-spacing: .01em; }
 .brand span { color: var(--brand); }
 .nav-links { list-style: none; display: flex; align-items: center; gap: 1.8rem; }
 .nav-links a { font-weight: 500; font-size: .92rem; color: var(--muted); }
@@ -116,7 +116,7 @@ section { padding: 5.5rem 0; }
 
 .site-footer { background: #0f182a; color: #c4ccdb; padding: 2.6rem 0; text-align: center; }
 .footer-inner { display: grid; gap: .5rem; justify-items: center; }
-.site-footer .brand { color: #fff; }
+.site-footer .brand { display: inline-flex; align-items: center; gap: .55rem; color: #fff; }
 .site-footer .brand span { color: var(--brand); }
 .muted { color: #8794aa; font-size: .85rem; }
 
